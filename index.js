@@ -47,6 +47,7 @@ drawCardBtn.addEventListener("click", () => {
                     computerScore = 0
                     myScore = 0
                     drawCardBtn.disabled = false
+                    header.textContent = "Game of War"
                 }
             }
         })
