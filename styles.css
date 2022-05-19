@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100vh;
     background-image: url("/images/bgImg.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +15,6 @@ body {
     align-items: center;
     justify-content: space-between;
     color: white;
-    height: 100vh;
 }
 
 button {

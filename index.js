@@ -43,6 +43,11 @@ drawCardBtn.addEventListener("click", () => {
                 } else {
                     header.textContent = "It's a tie game!"
                 }
+                if(handleClick){
+                    computerScore = 0
+                    myScore = 0
+                    drawCardBtn.disabled = false
+                }
             }
         })
 })
